@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 580px;
+  margin: 0 auto;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-width: 640px;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  background-color: #eae9f2;
+}
+
+.section-title {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+a {
+  color: #6653d9;
+}
+
+a:focus {
+  outline-color: #b6aaff;
+}
+
+.page-header {
+  color: #333333;
+  background-color: #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid black;
+}
+
+.page-header .container {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-image: url("img/лого.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 290px 165px;
+  margin-bottom: 10px;
+}
+
+.page-header a {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.page-title {
+  padding-top: 100px;
+  margin: 0;
+  margin-bottom: 4px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  padding: 20px;
+ }
+
+.about-image {
+   width: 135px;
+   height: 135px;
+   border-radius: 50%;
+   margin-right: 5px;
+   margin-top: 60px;
+ }
+
+.about-content {
+   width: 390px;
+   font-size: 14px;
+   line-height: 24px;
+ }
+
+.about-content p {
+   margin: 0;
+   margin-bottom: 12px;
+   padding: 0;
+ }
+
+.status {
+  margin-bottom: 32px;
+  padding: 20px;
+}
+
+.status p {
+  margin: 0;
+  padding-top: 12px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  border-radius: 32px 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.contacts img {
+  width: 146px;
+  height: 146px;
+  margin-right: 24px;
+}
+
+.contacts p {
+  margin: 0;
+  margin-bottom: 12px;
+  padding: 0;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+p.contacts-name {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.contacts a {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contacts {
+  padding: 20px;
+}
+
+.page-footer {
+  margin-top: auto;
+  color: #ffffff;
+  background-color: #000000;
+  
+}
+
+.page-footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 14px;
+}
+
+.page-footer p {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url("img/background3.jpeg");
+  background-size: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-repeat: repeat-y;
+}
+
+section {
+  color: lightgray;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10%;
+}
+
+a {
+  color: gray;
+}
